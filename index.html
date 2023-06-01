@@ -9,6 +9,9 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;500;600;700;800;900&family=Open+Sans:wght@300;400;500;600;700;800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,500&family=Source+Sans+Pro:wght@200;300;400;600;700;900&display=swap"
         rel="stylesheet">
+    <!--  ############## start swiper css ############## -->
+    <link rel="stylesheet" href="./style/swiper.css">
+    <!--  ############## end swiper css ############## -->
     <!-- icon head link -->
     <link rel="icon" type="image/x-icon" href="./image/favicon.ico" />
     <!-- render all elements normally -->
@@ -20,14 +23,10 @@
         crossorigin="anonymous" referrerpolicy="no-referrer" />
     <!-- main style sheet -->
     <link rel="stylesheet" href=".//style/main.css">
-    <!--  ############## start swiper css ############## -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
-    <!--  ############## end swiper css ############## -->
     <title>Frank's team</title>
 </head>
 
 <body>
-    <div class="loader"></div>
     <!-- start header -->
     <div class="header">
         <div class="container">
@@ -57,12 +56,12 @@
                                 <a href="#our-skills"><i class="far fa-check-circle fa-fw"></i> Our Skills</a>
                             </li>
                             <li>
-                                <a href="#work-steps"><i class="far fa-clipboard fa-fw"></i> How It Works</a>
+                                <a href="#work-space"><i class="far fa-clipboard fa-fw"></i> How It Works</a>
                             </li>
                         </ul>
                         <ul class="links">
                             <li>
-                                <a href="#events"><i class="far fa-calendar-alt fa-fw"></i> Events</a>
+                                <a href="#latest-events"><i class="far fa-calendar-alt fa-fw"></i> Events</a>
                             </li>
                             <li>
                                 <a href="#pricing"><i class="fas fa-server fa-fw"></i> Pricing Plans</a>
@@ -71,7 +70,7 @@
                                 <a href="#video"><i class="far fa-play-circle fa-fw"></i> Top Videos</a>
                             </li>
                             <li>
-                                <a href="#stats"><i class="far fa-chart-bar fa-fw"></i> Stats</a>
+                                <a href="#status"><i class="far fa-chart-bar fa-fw"></i> Stats</a>
                             </li>
                             <li>
                                 <a href="#discount"><i class="fas fa-percent fa-fw"></i> Request A Discount</a>
@@ -252,16 +251,20 @@
                         </div>
                     </div>
                 </div>
-                <div class="swiper-button-next"></div>
-                <div class="swiper-button-prev"></div>
-                <div class="swiper-pagination"></div>
             </div>
+            <div class="swiper-button-next">
+                <i class="fa-solid fa-chevron-right"></i>
+            </div>
+            <div class="swiper-button-prev">
+                <i class="fa-solid fa-chevron-left"></i>
+            </div>
+            <div class="swiper-pagination"></div>
         </div>
     </div>
     <!-- end Articles -->
 
     <!-- start gallery -->
-    <div class="gallery" id="">
+    <div class="gallery" id="Gallery">
         <h2 class="main-title">Gallery</h2>
         <div class="container">
             <div class="box">
@@ -299,7 +302,7 @@
     <!-- end gallery -->
 
     <!-- start FEATURES -->
-    <div class="features" id="">
+    <div class="features" id="Features">
         <h2 class="main-title">FEATURES</h2>
         <div class="container">
             <div class="box Quality">
@@ -412,7 +415,7 @@
     <!-- end TESTIMONIALS -->
 
     <!-- start TEAM MEMBERS -->
-    <div class="team" id="">
+    <div class="team" id="team">
         <h2 class="main-title">TEAM MEMBERS</h2>
         <div class="container">
             <div class="box">
@@ -430,7 +433,6 @@
                     <p>Simple Short Description</p>
                 </div>
             </div>
-
             <div class="box">
                 <div class="data">
                     <img src="./image/team-02.jpg" alt="">
@@ -446,7 +448,6 @@
                     <p>Simple Short Description</p>
                 </div>
             </div>
-
             <div class="box">
                 <div class="data">
                     <img src="./image/team-03.jpg" alt="">
@@ -462,7 +463,6 @@
                     <p>Simple Short Description</p>
                 </div>
             </div>
-
             <div class="box">
                 <div class="data">
                     <img src="./image/team-04.jpg" alt="">
@@ -478,7 +478,6 @@
                     <p>Simple Short Description</p>
                 </div>
             </div>
-
             <div class="box">
                 <div class="data">
                     <img src="./image/team-05.png" alt="">
@@ -494,7 +493,6 @@
                     <p>Simple Short Description</p>
                 </div>
             </div>
-
             <div class="box">
                 <div class="data">
                     <img src="./image/team-06.png" alt="">
@@ -510,7 +508,6 @@
                     <p>Simple Short Description</p>
                 </div>
             </div>
-
             <div class="box">
                 <div class="data">
                     <img src="./image/team-07.jpg" alt="">
@@ -526,7 +523,6 @@
                     <p>Simple Short Description</p>
                 </div>
             </div>
-
             <div class="box">
                 <div class="data">
                     <img src="./image/team-08.jpg" alt="">
@@ -547,7 +543,7 @@
     <!-- end TEAM MEMBERS -->
 
     <!-- start SERVICES -->
-    <div class="services" id="">
+    <div class="services" id="services">
         <h2 class="main-title">SERVICES</h2>
         <div class="container">
             <div class="box">
@@ -597,7 +593,7 @@
     <!-- end SERVICES -->
 
     <!-- start Skills -->
-    <div class="our-skills" id="">
+    <div class="our-skills" id="our-skill">
         <h2 class="main-title">our-skills</h2>
         <div class="container">
             <img src="./image/skills.png" alt="skills">
@@ -631,7 +627,7 @@
     </div>
     <!-- end Skills -->
     <!-- start HOW IT WORKS -->
-    <div class="work-space" id="">
+    <div class="work-space" id="work-space">
         <h2 class="main-title">HOW IT WORKS ?</h2>
         <div class="container">
             <img src="./image/work-steps.png" alt="" class="image">
@@ -666,7 +662,7 @@
     <!-- end HOW IT WORKS -->
 
     <!-- start LATEST EVENTS -->
-    <div class="latest-events" id="">
+    <div class="latest-events" id="latest-events">
         <h2 class="main-title">latest events</h2>
         <div class="container">
             <img src="./image/events.png" alt="">
@@ -704,7 +700,7 @@
     <!-- end LATEST EVENTS -->
 
     <!-- start PRICING PLANS -->
-    <div class="pricing" id="">
+    <div class="pricing" id="pricing">
         <h2 class="main-title">PRICING PLANS</h2>
         <div class="container">
             <div class="box">
@@ -763,7 +759,7 @@
     <!-- end PRICING PLANS -->
 
     <!-- start TOP VIDEOS -->
-    <div class="videos" id="videos">
+    <div class="videos" id="video">
         <h2 class="main-title">Top Videos</h2>
         <div class="container">
             <div class="holder">
@@ -792,7 +788,7 @@
     <!-- end TOP VIDEOS -->
 
     <!-- start satus -->
-    <div class="status" id="">
+    <div class="status" id="status">
         <h2 class="">Our Awesome Stats</h2>
         <div class="container">
             <div class="box">
@@ -850,7 +846,7 @@
     <!-- end Discount -->
 
     <!-- Start Footer -->
-    <div class="footer" id="">
+    <div class="footer">
         <div class="container">
             <div class="box">
                 <h3>Asharf</h3>
@@ -914,38 +910,9 @@
 
     </div>
     <!-- End Footer -->
-    <script src="./index.js">
     </script>
     <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
-    <script>
-        var swiper = new Swiper(".card-slider", {
-            spaceBetween: 10,
-            loop: true,
-            speed: 1000,
-            pagination: {
-                el: ".swiper-pagination",
-                clickable: true,
-            },
-            navigation: {
-                nextEl: ".swiper-button-next",
-                prevEl: ".swiper-button-prev",
-            },
-            breakpoints: {
-                320: {
-                    slidesPerView: 1,
-                },
-                480: {
-                    slidesPerView: 2,
-                },
-                768: {
-                    slidesPerView: 3,
-                },
-                1200: {
-                    slidesPerView: 5,
-                },
-            },
-        });
-    </script>
+    <script src="./index.js"></script>
 </body>
 
 </html>
