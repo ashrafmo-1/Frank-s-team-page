@@ -5,4 +5,5 @@
 ## type code Ashraf mohamed
 
 used swiper Library
-"https://swiperjs.com/get-started"  swiper link
+
+swiper link "https://swiperjs.com/get-started"
