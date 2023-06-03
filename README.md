@@ -9,7 +9,3 @@ used swiper Library
 swiper link  "https://swiperjs.com/get-started"
 
 site link  "https://ashraf-codes.github.io/Frank-s-team-page/"
-
-
-
-![Uploading frank team.png…]()
